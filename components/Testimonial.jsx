@@ -1,6 +1,6 @@
 import React from "react";
 import Wrapper from "./Warpper";
-import TwitterCard from "./twitterCard";
+import TwitterCard from "./TwitterCard";
 
 const Testimonial = () => {
   const twitterData = [
