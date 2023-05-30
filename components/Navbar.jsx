@@ -6,6 +6,7 @@ import Wrapper from "./Warpper";
 import Link from "next/link";
 import Menu from "./Menu";
 import MenuMobile from "./MenuMobile";
+import GradientButton from "./GradientButton";
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -51,12 +52,7 @@ const Navbar = () => {
           <Link href="" className="  custom-btn py-[13px] px-[20px]">
             <button>Sign in</button>
           </Link>
-          <Link
-            href=""
-            className=" text-white text-[16px] gradient-primary rounded-[5px] py-[13px] px-[20px] "
-          >
-            <button>Get Started Free</button>
-          </Link>
+          <GradientButton text="Get Started Free" path=""></GradientButton>
 
           {/* Mobile icon start */}
           <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex md:hidden justify-center items-center hover:bg-black/[0.05] cursor-pointer relative -mr-2">
