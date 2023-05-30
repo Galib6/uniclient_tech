@@ -12,7 +12,7 @@ const BlogHeadline = () => {
   return (
     <div>
       <Wrapper>
-        <h1 className="text-[42px] text-center text-white mt-[88px] leading-tight">
+        <h1 className="text-[42px] text-center text-white mt-[28px] leading-tight">
           Mixland helps you <br /> build beautiful website
         </h1>
         <div className="grid grid-cols-3 mt-[83px] gap-[49px] mb-[126px]">
