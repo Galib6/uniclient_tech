@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`w-full h-[50px] md:h-[80px]  flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 bg-[#12141D]  ${show}`}
+      className={`w-full h-[50px] md:h-[80px]  flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 bg-[#12141D]  ${show} z-50`}
     >
       <Wrapper className="h-[60px] flex justify-between items-center">
         <div className="flex justify-center items-center">
