@@ -12,7 +12,7 @@ const Footer = () => {
                 It will help you improve your writing <br /> & bring ideas more
                 clearly.
               </p>
-              <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+              <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start pr-[20px]">
                 <button className="lg:px-[18px] lg:py-[20.5px] px-[10px] py-[12px] bg-white rounded-lg text-[16px] font-semibold">
                   Start 14 Days Free Trail
                 </button>
