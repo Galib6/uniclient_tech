@@ -16,7 +16,7 @@ const Navbar = () => {
   const controlNavbar = () => {
     if (window.scrollY > 200) {
       if (window.scrollY > lastScrollY && !mobileMenu) {
-        setShow("-translate-y-[80px]");
+        setShow("-translate-y-[80px] ");
       } else {
         setShow("shadow-sm");
       }
@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`w-full h-[50px] md:h-[80px] bg-[#12141D] flex items-center justify-between z-20 sticky top-0 transition-transform duration-300  ${show}`}
+      className={`w-full h-[50px] md:h-[80px]  flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 bg-[#12141D]  ${show}`}
     >
       <Wrapper className="h-[60px] flex justify-between items-center">
         <div className="flex justify-center items-center">
@@ -46,7 +46,7 @@ const Navbar = () => {
           <Menu />
         </div>
 
-        {mobileMenu && <MenuMobile />}
+        {mobileMenu && <Menu />}
 
         <div className="flex items-center gap-2 ml-[-120px] ">
           <Link

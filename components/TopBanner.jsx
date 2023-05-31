@@ -20,7 +20,7 @@ const TopBanner = () => {
   };
 
   return (
-    <div className="mt-[50px] lg:mb-[50px] mb-0 lg:mt-[125px]">
+    <div className="mt-[50px] lg:mb-[50px] mb-0 lg:mt-[125px] relative">
       <h1 className="text-[30px] lg:text-[60px] leading-tight text-center text-white">
         Write better <br /> content for your <br />
         <span className="gradient-text ">Facebook Ads</span>

@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <div>
       <footer class="text-gray-600 body-font">
-        <div className="max-w-[1295px] mx-auto">
+        <div className="max-w-[1295px] mx-auto lg:mt-[90px] mt-[20px]">
           <div class="gradient rounded-lg">
             <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
               <p class="lg:text-[32px] text-[18px] font-semibold  text-white sm:ml-6 sm:mt-0 mt-4">
                 It will help you improve your writing <br /> & bring ideas more
-                c learly.
+                clearly.
               </p>
               <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                 <button className="lg:px-[18px] lg:py-[20.5px] px-[10px] py-[12px] bg-white rounded-lg text-[16px] font-semibold">

@@ -85,7 +85,7 @@ const BlogHeadline = () => {
               </div>
               <div class="bg-[#282A37] border-t-0 w-full p-[29px] rounded-b-lg">
                 <p className="text-[#B7B8BB] text-[16px] font-semibold border-b border-[#313342] pb-[20px]">
-                  4 Blog {headlines} Genarated
+                  4 {headlines} Genarated
                 </p>
                 <h1 className="text-[18px] text-white my-[22px] font-semibold border-b pb-[20px] border-[#313342]">
                   Create original content that ranks for SEO

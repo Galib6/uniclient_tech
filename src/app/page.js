@@ -10,14 +10,12 @@ import TopBanner from "../../components/TopBanner";
 export default function Home() {
   return (
     <div>
-      <Navbar></Navbar>
       <TopBanner></TopBanner>
       <CompanyProfile></CompanyProfile>
       <ExcitingTools></ExcitingTools>
       <BlogHeadline></BlogHeadline>
       <Testimonial></Testimonial>
       <PriceCard></PriceCard>
-      <Footer></Footer>
     </div>
   );
 }
