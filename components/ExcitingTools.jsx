@@ -92,7 +92,7 @@ const ExcitingTools = () => {
           </p>
         </div>
       </Wrapper>
-      <hr class="w-full h-px my-8 bg-[#3B3D44] border-0  mt-[100px] lg:mt-[125px]" />
+      <hr className="w-full h-px my-8 bg-[#3B3D44] border-0  mt-[100px] lg:mt-[125px]" />
     </div>
   );
 };

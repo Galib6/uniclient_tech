@@ -48,7 +48,7 @@ const TopBanner = () => {
                 width="16"
                 height="16"
                 fill="currentColor"
-                class={`bi bi-play-circle-fill ${color} `}
+                className={`bi bi-play-circle-fill ${color} `}
                 viewBox="0 0 16 16"
               >
                 {" "}
@@ -58,7 +58,7 @@ const TopBanner = () => {
             Watch Demo
           </button>
         </Link>
-        <hr class="w-full h-px my-8 bg-[#3B3D44] border-0  mt-[50px] lg:mt-[125px]" />
+        <hr className="w-full h-px my-8 bg-[#3B3D44] border-0  mt-[50px] lg:mt-[125px]" />
       </div>
     </div>
   );

@@ -77,13 +77,13 @@ const BlogHeadline = () => {
             </button>
           </div>
           <div className="col-span-2">
-            <div class="max-w-2xl transition-colors ease-linear shadow-md">
-              <div class="w-full h-12 rounded-t-lg bg-[#282A37] flex justify-start items-center space-x-1.5 px-4">
-                <span class="w-3 h-3 border-2 border-transparent border-red-400 rounded-full bg-red-400  "></span>
-                <span class="w-3 h-3 border-2 border-transparent border-yellow-400 rounded-full bg-yellow-400 "></span>
-                <span class="w-3 h-3 border-2 border-transparent border-green-400 rounded-full bg-green-400 "></span>
+            <div className="max-w-2xl transition-colors ease-linear shadow-md">
+              <div className="w-full h-12 rounded-t-lg bg-[#282A37] flex justify-start items-center space-x-1.5 px-4">
+                <span className="w-3 h-3 border-2 border-transparent border-red-400 rounded-full bg-red-400  "></span>
+                <span className="w-3 h-3 border-2 border-transparent border-yellow-400 rounded-full bg-yellow-400 "></span>
+                <span className="w-3 h-3 border-2 border-transparent border-green-400 rounded-full bg-green-400 "></span>
               </div>
-              <div class="bg-[#282A37] border-t-0 w-full p-[29px] rounded-b-lg">
+              <div className="bg-[#282A37] border-t-0 w-full p-[29px] rounded-b-lg">
                 <p className="text-[#B7B8BB] text-[16px] font-semibold border-b border-[#313342] pb-[20px]">
                   4 {headlines} Genarated
                 </p>

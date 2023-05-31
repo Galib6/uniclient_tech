@@ -57,7 +57,7 @@ const CompanyProfile = () => {
       </div>
       <Wrapper>
         <div className="lg:mt-[171px] mt-[50px] flex flex-col lg:flex-row justify-center items-center gap-[130px]">
-          <div className="relative">
+          <div className="relative z-0">
             <img
               src="Ellipse 5.svg"
               className="absolute  top-[-100px] lg:left-[80px] left-[0px] top-0 z-10 "

@@ -76,7 +76,7 @@ const PriceCard = () => {
           </div>
         </div>
       </Wrapper>
-      <hr class="w-full h-px my-8 bg-[#3B3D44] border-0  mt-[45px] lg:mt-[45px]" />
+      <hr className="w-full h-px my-8 bg-[#3B3D44] border-0  mt-[45px] lg:mt-[45px]" />
     </div>
   );
 };
