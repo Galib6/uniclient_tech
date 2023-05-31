@@ -12,11 +12,11 @@ const BlogHeadline = () => {
   return (
     <div>
       <Wrapper>
-        <h1 className="text-[42px] text-center text-white mt-[28px] leading-tight">
+        <h1 className="lg:text-[42px] text-[25px] text-center text-white mt-[28px] leading-tight">
           Mixland helps you <br /> build beautiful website
         </h1>
-        <div className="grid grid-cols-3 mt-[83px] gap-[49px] mb-[126px]">
-          <div className="col-span-1 space-y-[10px]">
+        <div className="grid lg:grid-cols-3 grid-cols-1 mt-[83px] gap-[49px] mb-[126px]">
+          <div className="col-span-1 space-y-[10px] place-content-center ">
             <button
               className={`text-white p-[15px] border border-[#282A37] w-full flex justify-start rounded-lg ${
                 headlines === "Blog Headlines"

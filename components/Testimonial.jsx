@@ -79,7 +79,7 @@ const Testimonial = () => {
           Read why thousands of marketers, writers, and <br /> entrepreneurs
           love us so much.
         </p>
-        <div className="grid grid-cols-4 gap-[28px] mt-[109px]">
+        <div className="grid lg:grid-cols-4 grid-cols-1 gap-[28px] mt-[109px]">
           <div className="space-y-[29px]">
             <TwitterCard data={twitterData[0]}></TwitterCard>
             <TwitterCard data={twitterData[4]}></TwitterCard>

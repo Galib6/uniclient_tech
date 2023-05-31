@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`w-full h-[50px] md:h-[80px] bg-transparent flex items-center justify-between z-20 sticky top-0 transition-transform duration-300  ${show}`}
+      className={`w-full h-[50px] md:h-[80px] bg-[#12141D] flex items-center justify-between z-20 sticky top-0 transition-transform duration-300  ${show}`}
     >
       <Wrapper className="h-[60px] flex justify-between items-center">
         <div className="flex justify-center items-center">
@@ -49,21 +49,26 @@ const Navbar = () => {
         {mobileMenu && <MenuMobile />}
 
         <div className="flex items-center gap-2 ml-[-120px] ">
-          <Link href="" className="  custom-btn py-[13px] px-[20px]">
+          <Link
+            href=""
+            className="  custom-btn py-[13px] px-[20px] hidden  lg:flex"
+          >
             <button>Sign in</button>
           </Link>
-          <GradientButton text="Get Started Free" path=""></GradientButton>
+          <div className="hidden lg:flex">
+            <GradientButton text="Get Started Free" path=""></GradientButton>
+          </div>
 
           {/* Mobile icon start */}
           <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex md:hidden justify-center items-center hover:bg-black/[0.05] cursor-pointer relative -mr-2">
             {mobileMenu ? (
               <VscChromeClose
-                className="text-[16px]"
+                className="text-[16px] text-white"
                 onClick={() => setMobileMenu(false)}
               />
             ) : (
               <BiMenuAltRight
-                className="text-[20px]"
+                className="text-[20px] text-white"
                 onClick={() => setMobileMenu(true)}
               />
             )}

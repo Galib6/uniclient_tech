@@ -1,6 +1,7 @@
 import BlogHeadline from "../../components/BlogHeadline";
 import CompanyProfile from "../../components/CompanyProfile";
 import ExcitingTools from "../../components/ExcitingTools";
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import PriceCard from "../../components/PriceCard";
 import Testimonial from "../../components/Testimonial";
@@ -16,6 +17,7 @@ export default function Home() {
       <BlogHeadline></BlogHeadline>
       <Testimonial></Testimonial>
       <PriceCard></PriceCard>
+      <Footer></Footer>
     </div>
   );
 }

@@ -40,11 +40,11 @@ const CompanyProfile = () => {
 
   return (
     <div className="">
-      <h1 className="font-medium text-[24px] text-white text-center">
+      <h1 className="font-medium text-[20px] lg:text-[24px] text-white text-center">
         Trusted by nearly 5000+ paying customers
       </h1>
       <div className="flex justify-center items-center">
-        <div className="grid grid-cols-4 max-w-[941px] mt-[75px] gap-[20px]">
+        <div className="grid lg:grid-cols-4 grid-cols-3 max-w-[941px] lg:mt-[75px] mt-[30px] gap-[20px]">
           {company.map((comp) => (
             <img
               key={comp.id}
@@ -56,34 +56,40 @@ const CompanyProfile = () => {
         </div>
       </div>
       <Wrapper>
-        <div className="mt-[171px] flex justify-center items-center gap-[130px]">
+        <div className="lg:mt-[171px] mt-[50px] flex flex-col lg:flex-row justify-center items-center gap-[130px]">
           <div className="relative">
             <img
               src="Ellipse 5.svg"
-              className="absolute right-[-200px] top-[-50px] z-10"
+              className="absolute  top-[-100px] lg:left-[80px] left-[0px] top-0 z-10 "
               alt=""
             />
-            <img src="Card 1.png" className="w-[406px] h-[450px] z-20" alt="" />
+            <img
+              src="Card 1.png"
+              className="lg:w-[406px] lg:h-[450px] z-40 "
+              alt=""
+            />
             <img
               src="Card 2.png"
-              className="absolute bottom-[10px] left-[84px] z-30"
+              className="absolute bottom-[10px] lg:left-[84px] right-[80px] z-30 "
               alt=""
             />
           </div>
-          <div className="my-[60px]">
-            <h1 className="text-[42px] text-white leading-tight">
+          <div className="lg:my-[60px] my-[-80px]">
+            <h1 className="lg:text-[42px] text-[30px] text-white leading-tight lg:text-left text-center">
               Create content efficiently <br /> and quickly with great AI <br />{" "}
               writing tools
             </h1>
-            <p className="text-[#B7B8BB] my-[31px]">
+            <p className="text-[#B7B8BB] my-[31px] lg:text-left text-center">
               150k+ users. No Credit Card Required. Pro designs and <br />{" "}
               writing at no cost. Start for free. Ai Writer Tool | Generate{" "}
               <br /> text for ecom, social media, website, sales, blogs etc.
             </p>
-            <GradientButton
-              text="Start 14 Days Free Trail"
-              path=""
-            ></GradientButton>
+            <div className="flex justify-center lg:justify-start">
+              <GradientButton
+                text="Start 14 Days Free Trail"
+                path=""
+              ></GradientButton>
+            </div>
           </div>
         </div>
       </Wrapper>

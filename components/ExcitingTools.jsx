@@ -56,15 +56,15 @@ const ExcitingTools = () => {
   return (
     <div>
       <Wrapper>
-        <div className=" mt-[747px]">
-          <h1 className="text-center text-white text-[42px]">
+        <div className=" lg:mt-[747px] mt-[300px]">
+          <h1 className="text-center text-white lg:text-[42px] text-[25px]">
             54 exciting writing tools
           </h1>
           <p className="mt-[26px] text-[#B7B8BB] text-center">
             AI engines take information from various sources and read <br />{" "}
             them like a human would do.
           </p>
-          <div className="mt-[61px] grid grid-cols-4 gap-[26px]">
+          <div className="mt-[61px] grid lg:grid-cols-4 grid-cols-1 gap-[26px]">
             {writingTools.map((tools) => (
               <div
                 key={tools.id}
